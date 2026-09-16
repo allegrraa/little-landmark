@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
   "scripts": {
     "dev": "node scripts/build-demos.mjs && vite --host 0.0.0.0",
     "build": "node scripts/build-demos.mjs && tsc -b && vite build",
